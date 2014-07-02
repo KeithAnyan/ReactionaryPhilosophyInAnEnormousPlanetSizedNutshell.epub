@@ -1,0 +1,27 @@
+
+all: ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.epub ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.mobi ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.pdf ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.md
+
+clean:
+	rm -f ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.epub
+	rm -f ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.mobi
+	rm -f ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.pdf
+	rm -f ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.md
+
+ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.epub: 
+	rm -f ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.epub
+	zip -X0 ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.epub mimetype
+	zip -Xur9D ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.epub META-INF/* OEBPS/*
+
+ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.mobi: ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.epub
+	rm -f ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.mobi
+	ebook-convert ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.epub ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.mobi
+
+ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.pdf: ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.epub
+	rm -f ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.pdf
+	ebook-convert ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.epub ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.pdf --embed-all-fonts --margin-left 24 --margin-top 24 --margin-right 24 --margin-bottom 24 --minimum-line-height 160
+
+ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.md: ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.epub
+	rm -f ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.md
+	ebook-convert ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.epub ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.txt --txt-output-formatting=markdown --keep-links --keep-image-references
+	cp -f ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.txt ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.md
+	rm -f ReactionaryPhilosophyInAnEnormousPlanetSizedNutshell.txt

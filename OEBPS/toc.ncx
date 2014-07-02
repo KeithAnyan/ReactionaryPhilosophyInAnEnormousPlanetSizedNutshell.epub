@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:7c92720c-7150-4a85-889f-7fc9bda31e5f" />
+    <meta name="dtb:depth" content="1" />
+    <meta name="dtb:totalPageCount" content="0" />
+    <meta name="dtb:maxPageNumber" content="0" />
+  </head>
+  <docTitle>
+    <text>Unknown</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-1" playOrder="1">
+      <navLabel>
+        <text>Intro</text>
+      </navLabel>
+      <content src="Text/reactionary_philosophy_01.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-2" playOrder="2">
+      <navLabel>
+        <text>No One Expects The Spanish Inquisition, Especially Not In 21st Century America</text>
+      </navLabel>
+      <content src="Text/reactionary_philosophy_02.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-3" playOrder="3">
+      <navLabel>
+        <text>Wait, You Mean The Invisible Multi-Tentacled Monster That Has Taken Over All Our Information Sources Might Be Trying To Mislead Us?</text>
+      </navLabel>
+      <content src="Text/reactionary_philosophy_03.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-4" playOrder="4">
+      <navLabel>
+        <text>The Past Is A First World Country</text>
+      </navLabel>
+      <content src="Text/reactionary_philosophy_04.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-5" playOrder="5">
+      <navLabel>
+        <text>Every Time I Hear The Word “Revolver”, I Reach For My Culture</text>
+      </navLabel>
+      <content src="Text/reactionary_philosophy_05.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-6" playOrder="6">
+      <navLabel>
+        <text>The Other Chinese Room Experiment</text>
+      </navLabel>
+      <content src="Text/reactionary_philosophy_06.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-7" playOrder="7">
+      <navLabel>
+        <text>On Second Thought, Keep Your Tired And Poor To Yourself</text>
+      </navLabel>
+      <content src="Text/reactionary_philosophy_07.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-8" playOrder="8">
+      <navLabel>
+        <text>Imperialism Strikes Back</text>
+      </navLabel>
+      <content src="Text/reactionary_philosophy_08.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-9" playOrder="9">
+      <navLabel>
+        <text>The Uncanny Valley Of Dictatorship</text>
+      </navLabel>
+      <content src="Text/reactionary_philosophy_09.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-10" playOrder="10">
+      <navLabel>
+        <text>Humane, All Too Humane</text>
+      </navLabel>
+      <content src="Text/reactionary_philosophy_10.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-11" playOrder="11">
+      <navLabel>
+        <text>Gender! And Now That I Have Your Attention, Let’s Talk About Sex</text>
+      </navLabel>
+      <content src="Text/reactionary_philosophy_11.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-12" playOrder="12">
+      <navLabel>
+        <text>Plays Well In Groups</text>
+      </navLabel>
+      <content src="Text/reactionary_philosophy_12.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-13" playOrder="13">
+      <navLabel>
+        <text>Reach For The Tsars</text>
+      </navLabel>
+      <content src="Text/reactionary_philosophy_13.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-14" playOrder="14">
+      <navLabel>
+        <text>A Brief Survey Of Not Directly Political Reactionary Philosophy</text>
+      </navLabel>
+      <content src="Text/reactionary_philosophy_14.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-15" playOrder="15">
+      <navLabel>
+        <text>But Seriously, What Do We Do About This Hole? And How Fast Should We Be Digging, Anyway?</text>
+      </navLabel>
+      <content src="Text/reactionary_philosophy_15.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-16" playOrder="16">
+      <navLabel>
+        <text>Outro</text>
+      </navLabel>
+      <content src="Text/reactionary_philosophy_16.xhtml" />
+    </navPoint>
+  </navMap>
+</ncx>

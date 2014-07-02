@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:7c92720c-7150-4a85-889f-7fc9bda31e5f</dc:identifier>
+    <dc:title>Reactionary Philosophy in an Enormous, Planet-sized Nutshell</dc:title>
+    <dc:creator opf:role="aut">Scott Alexander</dc:creator>
+    <dc:language>en</dc:language>
+    <dc:date opf:event="modification">2014-07-02</dc:date>
+    <dc:contributor opf:role="trc">@jbboehr</dc:contributor>
+    <dc:source>http://slatestarcodex.com/2013/03/03/reactionary-philosophy-in-an-enormous-planet-sized-nutshell/</dc:source>
+    <meta content="0.7.4" name="Sigil version" />
+    <meta name="cover" content="cover.png" />
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Text/reactionary_philosophy_01.xhtml" id="reactionary_philosophy_01.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/reactionary_philosophy_02.xhtml" id="reactionary_philosophy_02.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/reactionary_philosophy_03.xhtml" id="reactionary_philosophy_03.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/mining.jpg" id="mining.jpg" media-type="image/jpeg" />
+    <item href="Images/shovel.jpg" id="shovel.jpg" media-type="image/jpeg" />
+    <item href="Images/crime.jpg" id="crime.jpg" media-type="image/jpeg" />
+    <item href="Text/reactionary_philosophy_04.xhtml" id="reactionary_philosophy_04.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/gap.gif" id="gap.gif" media-type="image/gif" />
+    <item href="Images/gapw.jpg" id="gapw.jpg" media-type="image/jpeg" />
+    <item href="Text/reactionary_philosophy_05.xhtml" id="reactionary_philosophy_05.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/reactionary_philosophy_06.xhtml" id="reactionary_philosophy_06.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/reactionary_philosophy_07.xhtml" id="reactionary_philosophy_07.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/reactionary_philosophy_08.xhtml" id="reactionary_philosophy_08.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/reactionary_philosophy_09.xhtml" id="reactionary_philosophy_09.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/reactionary_philosophy_10.xhtml" id="reactionary_philosophy_10.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/reactionary_philosophy_11.xhtml" id="reactionary_philosophy_11.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/reactionary_philosophy_12.xhtml" id="reactionary_philosophy_12.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/sasha.jpg" id="sasha.jpg" media-type="image/jpeg" />
+    <item href="Text/reactionary_philosophy_13.xhtml" id="reactionary_philosophy_13.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/reactionary_philosophy_14.xhtml" id="reactionary_philosophy_14.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/reactionary_philosophy_15.xhtml" id="reactionary_philosophy_15.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/reactionary_philosophy_16.xhtml" id="reactionary_philosophy_16.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/title.html" id="title.html" media-type="application/xhtml+xml" />
+    <item href="Fonts/philosopher.ttf" id="philosopher.ttf" media-type="application/x-font-ttf" />
+    <item href="Fonts/philosopher-bold.ttf" id="philosopher-bold.ttf" media-type="application/x-font-ttf" />
+    <item href="Fonts/philosopher-italic.ttf" id="philosopher-italic.ttf" media-type="application/x-font-ttf" />
+    <item href="Fonts/philosopher-italic-bold.ttf" id="philosopher-italic-bold.ttf" media-type="application/x-font-ttf" />
+    <item href="Styles/stylesheet.css" id="stylesheet.css" media-type="text/css" />
+    <item href="Images/cover.png" id="cover.png" media-type="image/png" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="title.html" />
+    <itemref idref="reactionary_philosophy_01.xhtml" />
+    <itemref idref="reactionary_philosophy_02.xhtml" />
+    <itemref idref="reactionary_philosophy_03.xhtml" />
+    <itemref idref="reactionary_philosophy_04.xhtml" />
+    <itemref idref="reactionary_philosophy_05.xhtml" />
+    <itemref idref="reactionary_philosophy_06.xhtml" />
+    <itemref idref="reactionary_philosophy_07.xhtml" />
+    <itemref idref="reactionary_philosophy_08.xhtml" />
+    <itemref idref="reactionary_philosophy_09.xhtml" />
+    <itemref idref="reactionary_philosophy_10.xhtml" />
+    <itemref idref="reactionary_philosophy_11.xhtml" />
+    <itemref idref="reactionary_philosophy_12.xhtml" />
+    <itemref idref="reactionary_philosophy_13.xhtml" />
+    <itemref idref="reactionary_philosophy_14.xhtml" />
+    <itemref idref="reactionary_philosophy_15.xhtml" />
+    <itemref idref="reactionary_philosophy_16.xhtml" />
+  </spine>
+  <guide>
+    <reference href="Text/title.html" title="Title Page" type="title-page" />
+    <reference href="Text/reactionary_philosophy_01.xhtml" title="Text" type="text" />
+  </guide>
+</package>
